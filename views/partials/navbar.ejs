@@ -1,18 +1,49 @@
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand gradient" href="index">
-        <p>GGW Solutions!</p>
-      </a>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark container" id="navbar-top">
+    <div class="container-fluid">
+        <a href="/" class="navbar-brand">
+            <h2 class="text-warning">GGW Solution!</h2>
+            <!--<img src="./img/ggMeWhite.jpg" alt="">-->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mob-navbar"
+            aria-label="Toggle">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mob-navbar">
+            <ul class="navbar-nav mb-2 mb-lg-0 mx-auto">
+                <li class="nav-item">
+                    <a href="#" class="nav-link" aria-current="page">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Forum</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">Services</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a href="#" class="dropdown-item">Drop 01</a></li>
+                        <li><a href="#" class="dropdown-item">Drop 02</a></li>
+                        <li><a href="#" class="dropdown-item">Drop 03</a></li>
+                        <li><a href="#" class="dropdown-item">Drop 04</a></li>
+                        <li><a href="#" class="dropdown-item">Drop 05</a></li>
+                        <li>
+                            <hr class="dropdown-divider" />
+                        </li>
+                        <li><a class="dropdown-item" href="#">Explore More</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Courses</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#" class="nav-link">Contacts</a>
+                </li>
+            </ul>            
+            <form class="d-flex">
+                <input class="form-control me-2" type="text" placeholder="Username" />
+                <input class="form-control me-2" type="password" placeholder="Password" />
+                <button class="btn btn-warning me-2" type="submit">SingIn</button>
+                <button class="btn btn-danger" type="submit">SingUp</button>
+            </form>            
+        </div>
     </div>
-    <ul class="nav navbar-nav">
-      <li class="active"><a href="index">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right">
-      <li><a href="register"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li><a href="login"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-  </div>
 </nav>
