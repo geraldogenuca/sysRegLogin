@@ -10,8 +10,9 @@ app.use(express.static('public'));
 app.use(bodyParser.urlencoded({extended: false}));
 app.use(bodyParser.json());
 
-app.get("/", (req, res) => {res.render("index");});
-app.get("/register", (req, res) => {res.render("register");});
+app.get("/", (req, res) => {res.render("login");});
+app.get("/singup", (req, res) => {res.render("singup");});
+app.get("/recover", (req, res) => {res.render("recover");});
 
 
 
